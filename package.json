@@ -1,0 +1,50 @@
+{
+  "name": "smartplugbd-ecommerce",
+  "version": "1.0.0",
+  "description": "A complete e-commerce website with dual currency support, admin panel, and user dashboard",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx http-server -p 8000",
+    "dev": "npx live-server --port=8000",
+    "build": "echo 'No build process required for static site'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "ecommerce",
+    "javascript",
+    "bootstrap",
+    "responsive",
+    "dual-currency",
+    "admin-panel",
+    "shopping-cart",
+    "bangladesh",
+    "usd-bdt"
+  ],
+  "author": {
+    "name": "SmartPlugBD",
+    "email": "admin@smartplugbd.com",
+    "url": "https://github.com/yourusername/smartplugbd"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/yourusername/smartplugbd#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/smartplugbd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/smartplugbd/issues"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
